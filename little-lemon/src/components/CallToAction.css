@@ -1,0 +1,46 @@
+/* src/components/CallToAction.css */
+.cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #526d56;
+    color: white;
+  }
+  
+  .cta-text {
+    max-width: 60%;
+  }
+  
+  .cta-text h1, .cta-text h2, .cta-text p {
+    margin: 0;
+  }
+  
+  .cta-text h1 {
+    font-size: 48px;
+  }
+  
+  .cta-text h2 {
+    font-size: 36px;
+  }
+  
+  .cta-text p {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  .cta-image img {
+    height: 300px;
+    width: 500px;
+    border-radius: 50%;
+  }
+  
+  .reservation-btn {
+    padding: 10px 20px;
+    background-color: #f4c542;
+    border: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  

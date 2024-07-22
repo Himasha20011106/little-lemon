@@ -1,0 +1,29 @@
+/* src/components/Nav.css */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  li {
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  

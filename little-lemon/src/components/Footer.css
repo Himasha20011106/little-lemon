@@ -1,0 +1,26 @@
+/* src/components/Footer.css */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    max-width: 30%;
+  }
+  
+  .footer-section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section p {
+    font-size: 16px;
+  }
+  

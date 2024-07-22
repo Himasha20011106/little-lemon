@@ -1,0 +1,43 @@
+/* src/components/Specials.css */
+.specials {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .specials-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .special-item {
+    max-width: 30%;
+    text-align: left;
+  }
+  
+  .special-item img {
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .special-item h3 {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .special-item p {
+    font-size: 16px;
+  }
+  
+  .special-item button {
+    padding: 10px 20px;
+    background-color: #f4c542;
+    border: none;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
